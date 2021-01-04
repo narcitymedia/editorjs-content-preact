@@ -1,16 +1,23 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "commonjs",
         "declaration": true,
         "outDir": "./lib",
         "strict": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext"
     },
     "include": [
         "src"
     ],
     "exclude": [
         "node_modules",
-        "**/__tests__/*"
+        "**/__tests__/*",
+        "build"
     ]
 }
