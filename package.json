@@ -1,0 +1,20 @@
+{
+  "name": "editorjs-content-preact",
+  "version": "1.0.0",
+  "description": "Module to parse content blocks from EditorJS format to Preact components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narcitymedia/editorjs-content-preact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narcitymedia/editorjs-content-preact/issues"
+  },
+  "homepage": "https://github.com/narcitymedia/editorjs-content-preact#readme"
+}
