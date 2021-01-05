@@ -1,8 +1,8 @@
 {
   "name": "editorjs-content-react",
   "version": "1.0.0",
+  "module": "lib/index.js",
   "description": "Module to parse content blocks from EditorJS format to React components",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
