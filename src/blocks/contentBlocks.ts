@@ -6,6 +6,11 @@ export enum BlockType {
     Delimiter = "delimiter"
 }
 
+export enum ListStyle {
+    Ordered = 'ordered',
+    Unordered = 'unordered'
+}
+
 export interface ContentBlock {
     /**
      * Represents the type of block
@@ -15,7 +20,7 @@ export interface ContentBlock {
     /**
      * Data associated with the current block
      */
-    data: unknown
+    data: unknown,
 
     /**
      * Uniquely identifies the block within the content
@@ -24,7 +29,17 @@ export interface ContentBlock {
 }
 
 export interface HeaderBlock extends ContentBlock {
-    
+    data: {
+        /**
+         * Text contained in the current header. May contain markup.
+         */
+        text: string,
+
+        /**
+         * Represents the hierarcical level of the current Header
+         */
+        level: number
+    } 
 }
 
 export interface ParagraphBlock extends ContentBlock {
@@ -35,3 +50,25 @@ export interface ParagraphBlock extends ContentBlock {
         text: string
     }
 }
+
+export interface ListBlock extends ContentBlock {
+    data: {
+        /**
+         * Indicates the type of list
+         */
+        style: ListStyle,
+
+        /**
+         * The items contained in the current list. Each string may contain markup.
+         */
+        items: string[]
+    }
+}
+
+export interface RawHTMLBlock extends ContentBlock {
+    data: {
+        html: string
+    }
+}
+
+export interface DelimiterBLock extends ContentBlock {}
