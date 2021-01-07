@@ -71,4 +71,4 @@ export interface RawHTMLBlock extends ContentBlock {
     }
 }
 
-export interface DelimiterBLock extends ContentBlock {}
+export interface DelimiterBlock extends ContentBlock {}
