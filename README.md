@@ -24,3 +24,10 @@ const Content: React.FC<ContentBlock> = props => (
 );
 
 ```
+
+# Run the Sample
+
+```shell
+    cd storybook/component-showcase/
+    npm run storybook
+```
