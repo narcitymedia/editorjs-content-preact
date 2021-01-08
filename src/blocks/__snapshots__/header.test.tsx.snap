@@ -32,3 +32,14 @@ exports[`Header should render the 2 level heading as h2 1`] = `
   id="XXX-XXX"
 />
 `;
+
+exports[`Header should render the 7 level header as h6 1`] = `
+<h6
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 6",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
