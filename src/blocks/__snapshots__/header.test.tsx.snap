@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delimeter should render the 0 level heading as h1 1`] = `
+<h1
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 1",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
+
+exports[`Delimeter should render the 1 level heading as h1 1`] = `
+<h1
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 1",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
+
+exports[`Delimeter should render the 2 level heading as h2 1`] = `
+<h1
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 2",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
