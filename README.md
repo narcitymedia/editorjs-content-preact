@@ -25,7 +25,13 @@ const Content: React.FC<ContentBlock> = props => (
 
 ```
 
-# Run the Sample
+# Run the tests
+
+```shell
+    npm test
+```
+
+# Run Storybook
 
 ```shell
     cd storybook/component-showcase/

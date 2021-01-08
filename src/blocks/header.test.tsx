@@ -4,7 +4,7 @@ import { BlockType } from '..';
 
 import Header from './header';
 
-describe('Delimeter', () => {
+describe('Header', () => {
   it('should render the 0 level heading as h1', () => {
     const args = {
       text: "Heading 1",
@@ -18,7 +18,7 @@ describe('Delimeter', () => {
   it('should render the 1 level heading as h1', () => {
     const args = {
       text: "Heading 1",
-      level: 0,
+      level: 1,
     }
     const tree = renderer
       .create(<Header type={BlockType.Delimiter} data={args} contentUniqueId="XXX-XXX" />)
@@ -28,7 +28,7 @@ describe('Delimeter', () => {
   it('should render the 2 level heading as h2', () => {
     const args = {
       text: "Heading 2",
-      level: 0,
+      level: 2,
     }
     const tree = renderer
       .create(<Header type={BlockType.Delimiter} data={args} contentUniqueId="XXX-XXX" />)
