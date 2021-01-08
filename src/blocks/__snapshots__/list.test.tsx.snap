@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List ordered lists should render an ordered list with markup 1`] = `
+<ol>
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>Butter<p>",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<i>Chicken</i>",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<a href='https://www.google.com'>Eggs</a>",
+      }
+    }
+  />
+</ol>
+`;
+
+exports[`List ordered lists should render an ordered list with no markup 1`] = `
+<ol>
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Butter",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Chicken",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Eggs",
+      }
+    }
+  />
+</ol>
+`;
+
+exports[`List unordered lists should render an unordered list with markup 1`] = `
+<ul>
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>Butter<p>",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<i>Chicken</i>",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<a href='https://www.google.com'>Eggs</a>",
+      }
+    }
+  />
+</ul>
+`;
+
+exports[`List unordered lists should render an unordered list with no markup 1`] = `
+<ul>
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Butter",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Chicken",
+      }
+    }
+  />
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Eggs",
+      }
+    }
+  />
+</ul>
+`;

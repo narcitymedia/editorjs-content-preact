@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the 0 level heading as h1 1`] = `
+<h1
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 1",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
+
+exports[`Header should render the 1 level heading as h1 1`] = `
+<h1
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 1",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
+
+exports[`Header should render the 2 level heading as h2 1`] = `
+<h2
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 2",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
+
+exports[`Header should render the 7 level header as h6 1`] = `
+<h6
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "Heading 6",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;

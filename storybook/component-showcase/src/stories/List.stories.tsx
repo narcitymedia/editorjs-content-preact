@@ -24,7 +24,7 @@ export const UnorderedListWithMarkup = Template.bind({});
 UnorderedListWithMarkup.args = {
   data: {
     style: ListStyle.Unordered,
-    items: ["Say <i>hello</i> to your <b>neighbors</b>", "<b>world</b>"]
+    items: ["Say <i>hello</i> to your <b>neighbors</b>", "<b>world</b>", "<a href='https://www.google.ca'>GOOGLE LINK</a>"]
   }
 };
 
@@ -41,7 +41,7 @@ export const OrderedListWithMarkup = Template.bind({});
 OrderedListWithMarkup.args = {
   data: {
     style: ListStyle.Unordered,
-    items: ["A <i>dozen</i> Eggs", "<b>Chicken</b> breast", "OV Beer"]
+    items: ["A <i>dozen</i> Eggs", "<b>Chicken</b> breast", "OV Beer", "<a href='https://www.google.ca'>GOOGLE LINK</a>"]
   }
 };
 

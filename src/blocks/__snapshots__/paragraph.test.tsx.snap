@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph should render the Paragraph with markup 1`] = `
+<p
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "No <b>markup</b> paragraph <a href='https://www.google.ca'>Google Link</a>",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;
+
+exports[`Paragraph should render the Paragraph with no markup 1`] = `
+<p
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "No markup paragraph",
+    }
+  }
+  id="XXX-XXX"
+/>
+`;

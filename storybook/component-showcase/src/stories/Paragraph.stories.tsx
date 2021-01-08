@@ -21,7 +21,7 @@ PargraphNoMarkup.args = {
 export const PargraphWithMarkup = Template.bind({});
 PargraphWithMarkup.args = {
   data: {
-    text: "Lorem ipsum <i>dolor</i> sit amet, consectetur <b>adipiscing elit</b>. In risus augue, dignissim vel scelerisque id"
+    text: "Lorem ipsum <i>dolor</i> sit amet, consectetur <b>adipiscing elit</b>. In risus <a href='https://www.google.ca'>GOOGLE LINK</a>, dignissim vel scelerisque id"
   }
 };
 
